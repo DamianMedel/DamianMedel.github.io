@@ -1,0 +1,263 @@
+header {
+  grid-template-columns: repeat(auto-fit, minmax(301px, 1fr)); 
+  background-color: coral;
+  border-style: groove;
+  border-color: red;
+  padding-top: 0;
+  margin-top: 0;
+  
+}
+body{
+  margin: 0%;
+  font-family: Times, serif;
+  background-color: honeydew;
+  
+}
+main{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+footer{
+  text-align: center;
+}
+.NameForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  
+}
+.TitleContactUs{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+h1 {
+  text-align: center;
+  background-color: greenyellow;
+  color: orange;
+  font-weight: bold;
+  
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 1px;
+}
+    
+
+nav ul{
+  
+  font-size: 150%;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+nav ul li :hover{
+  background-color: #0088a9;
+  font-weight: bold;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 30px;
+  color: darkolivegreen;
+}
+
+nav li a{
+  transition: all 0.3s ease 0s;
+}
+
+h3{
+  text-align: center;
+  
+}
+phone{
+  color: darkolivegreen;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 150%;
+  padding-right: 10px;
+  
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+audio{
+  display: block;
+  align-content: center;
+  border-radius: 35%;
+  max-width: 36%;
+  background: green;
+  margin-left: auto;
+  margin-right: auto;
+  }
+ 
+
+
+
+.Testimonial-section{
+  display: inline-block
+}
+.LoudSpeaker-pix{
+  width: 50px;
+  border-radius: 20px;
+  border: double;
+  display: inline-block;
+}
+
+
+
+.BestDeal{
+  margin-top: 2px;
+  font-style: italic; 
+  text-align: center;
+  
+}
+
+h2{
+  font-size: 50px;
+  padding: none;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: darkolivegreen; 
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+
+}
+.eMail {
+  text-align: right;
+  font-size: 20px;
+  
+}
+
+
+aside {
+  font-style: italic;
+  text-align: center;
+
+  
+}
+
+section p{
+  border-style:   solid;
+  border-color: coral;
+  border-width: 2px;
+  padding: 12px;
+  margin: 10px
+  
+}
+.Practice1{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.Testimonials{
+  display: grid;
+  grid-template-columns: 175px 175px;
+  
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.TestiOne{
+  border-style: double;
+  padding: 10%;
+  margin: 10%;
+}
+
+.TestiTwo{
+  border-style: double;
+  padding: 10%;
+  margin: 10%;
+}
+
+article {
+  background-image: url('BackgroundFiesta.jpeg');
+  background-size: cover;
+  color: greenyellow;
+  font-size: 20px;
+  
+}
+.contact-address{
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+
+table{
+  display: inline;
+}
+
+tr{
+  text-align: center;
+  
+  
+}
+td{
+  background-color: beige
+}
+th{
+  width: 150px
+}
+
+.Submit-button {
+  background-color: greenyellow;
+    color: coral;
+    font-size: 115%;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .Submit-button:hover{
+    background-color: coral;
+    color: white;
+  }
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  }
+
+.businessName {
+  padding: 10px ;
+  font-size: 150%; 
+  color: darkolivegreen;
+  font-weight: bold;
+  text-align: center;
+  height: auto;
+}
+
+a {
+  font-size: 20px;
+}
+
+.JumperSize{
+  text-align: center;
+}
+
+.form{
+  border-style: double;
+  border-color: coral;
+  border-width: 3px;
+  padding: 11px;
+  margin: 10px;
+  
+}
